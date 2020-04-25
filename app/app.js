@@ -1,8 +1,8 @@
 import express from 'express'
 import path from 'path'
-import template from './src/template'
-import ssr from './src/server'
-import data from './assets/data.json'
+import template from './app/src/template'
+import ssr from './app/src/server'
+import data from './app/assets/data.json'
 
 const app = express()
 
