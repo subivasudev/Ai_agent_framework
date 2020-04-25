@@ -2,6 +2,9 @@
   "name": "assignment_react_xt",
   "version": "1.0.0",
   "description": "Hackernews clone creation project!",
+  "engines": {
+    "node": "12.16.x"
+  },
   "main": "index.js",
   "scripts": {
     "start": "yarn build && node index.js",
