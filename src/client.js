@@ -2,7 +2,7 @@ import React from 'react'
 import {hydrate} from 'react-dom'
 import {Provider} from 'react-redux'
 import configureStore from './redux/configureStore'
-import App from './app/components/app'
+import App from './components/app'
 
 // Read the state sent with markup
 const state = window.__STATE__;
