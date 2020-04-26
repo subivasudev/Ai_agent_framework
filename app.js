@@ -1,6 +1,6 @@
 import express from 'express'
 import path from 'path'
-import template from './app/src/template'
+import template from './src/template'
 import ssr from './src/server'
 import data from './assets/data.json'
 

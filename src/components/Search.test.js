@@ -1,10 +1,11 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import Search from './search';
+import { shallow, mount, render } from 'enzyme';
 
-describe("App", () => {
-  it("should render correctly", () => {
-    const component = shallow(<Search />);
+describe("Search", () => {
+  it("should render my component", () => {
+    const wrapper = shallow(<Search />);
   });
 });
+  
   

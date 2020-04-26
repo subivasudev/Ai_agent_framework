@@ -1,10 +1,11 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import Feed from './feed';
+import { shallow, mount, render } from 'enzyme';
 
-describe("App", () => {
-  it("should render correctly", () => {
-    const component = shallow(<Feed />);
+describe("Feed", () => {
+  it("should render my component", () => {
+    const wrapper = shallow(<Feed />);
   });
 });
+  
   

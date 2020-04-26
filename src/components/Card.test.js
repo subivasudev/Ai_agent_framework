@@ -1,10 +1,7 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import Card from './Card';
+import { shallow, mount, render } from 'enzyme';
 
-describe("App", () => {
-  it("should render correctly", () => {
-    const component = shallow(<Card />);
-  });
-});
+const wrapper = shallow(<Card />);
+
   
